@@ -1,0 +1,17 @@
+{
+  "name": "mvm-group-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MVM GROUP corporate group website in Lao, English and Chinese, with Decap CMS.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check-links.mjs",
+    "fonts": "node scripts/fetch-fonts.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
